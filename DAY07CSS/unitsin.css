@@ -1,0 +1,32 @@
+h1{
+    display: inline;
+    border: 5px dashed lavender;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+#outer{
+    height: 500px;
+    width: 500px;
+    margin: 20px;
+    background-color: rgb(214, 255, 214);
+    align-self: center;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    margin: 30%;
+    align-self: center;
+    background-color: rgb(98, 236, 98);
+}
+button{
+    border: 5px solid forestgreen;
+    font-size: 40px;
+    padding: 30px 2em 30px 2em;
+    border-radius: 0.5em;
+}
+span{
+    font-size: 30px;
+}
+div{
+    font-size: 2rem;
+}

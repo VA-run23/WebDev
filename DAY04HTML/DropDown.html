@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DropDown</title>
+    </head>
+    <body>
+        <form>
+            <select name="Profession" id="Profession">
+                <option>Select your option</option>
+                <option value="Student">Student</option>
+                <option value="Dev">Developer</option>
+            </select>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+            <br>
+            <div>
+                <label for="vol"> Select your volume level: </label>
+                <input type="range" id="vol" min="0" max="100" step="10" name="vol" value="30">
+                <button> ok</button>
+            </div>
+            <label for="feedback"><h1>Please give your valuable feedback</h1></label>
+            <textarea id="feedback" name="feedback"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    /* display: flex; */
+
+}
+div{
+    height: 500px;
+    width: 500px;
+    border: black 5px solid;
+    margin: auto;
+}
+#color{
+    height: 500px;
+    width: 500px;
+    border: black 5px solid;
+    margin: auto;
+}
+.color{
+    height: 500px;
+    width: 500px;
+    border: black 5px solid;
+    margin: auto;
+    color: yellowgreen !important;
+}

@@ -1,0 +1,27 @@
+h2 {
+    color: #d56f3e;
+}
+span{
+    color:#d56f3e
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+.card{
+    border: 2px black solid;
+    width: 400px;
+    display: flex;
+    border-radius: 25px;
+    flex-wrap: wrap
+}
+img{
+    justify-items: center;
+    border-radius: 25px 25px 25px 25px ;
+    padding: 10px 5px 10px 50px;
+}
+h4{
+    flex-direction: row;
+    justify-self: end;
+}

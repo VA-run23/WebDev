@@ -1,0 +1,42 @@
+body{
+    background-color: wheat;
+    align-content: center;
+    text-align: center;
+
+}
+p{
+    background-color: red;
+    display: inline-block;
+    color: #a52a2a;
+    line-height: 30px;
+}
+/* h1,h2,h3,h4,h5,h6,p{
+    text-align: center;
+/*q3
+} */
+h3{
+    color: black;
+    font-weight: bold;
+    /*q4*/
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: #008000;
+    text-decoration: none;
+}
+button{
+    background-color: white;
+    color: blueviolet;/*q7 done*/
+}
+textarea::placeholder{
+    color: black;/*Important*/
+}
+h1{
+    text-decoration: underline;
+}
+span{
+    text-decoration: underline;
+}
+

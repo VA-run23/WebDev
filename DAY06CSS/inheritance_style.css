@@ -1,0 +1,23 @@
+div{
+    background-color:yellow;
+}
+label:hover{
+    font-style: italic;
+    text-decoration: solid;
+}
+input:hover{
+    font-style: italic;
+    text-decoration: solid;
+}
+form{
+    background-color: red;
+}
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}
+input::placeholder{
+    color: aqua;
+}

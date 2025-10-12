@@ -1,0 +1,24 @@
+H1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    text-decoration: darkturquoise overline;
+    text-decoration:  blue double line-through;
+    font-size: normal;
+}
+p{
+    font-size: 1px;
+    text-align: center;
+}
+ul{
+    text-align: center;
+    letter-spacing: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+ text-align: center;
+}
+a{
+    text-decoration: none;
+}

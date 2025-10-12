@@ -1,0 +1,11 @@
+.container-fluid{
+    background-color: beige;
+}
+.btn-light{
+    background-color: blue;
+}
+.btn-light:hover{
+    background-color: aqua;
+    transition-duration: 1s;
+    transition-timing-function:ease-in;
+}

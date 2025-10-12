@@ -1,0 +1,36 @@
+.outer{
+    height: 400px;
+    width: 400px;
+    border: 2px greenyellow solid;
+    border-radius: 2rem;
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    size: 100px;
+    border: 2px black solid;
+    background-color: grey;
+    font-weight: 800;
+    border-radius: 10px;
+    font-size: 50px;
+}
+.pink{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 2px green solid;
+    flex-direction: row;
+    border-radius: 15px;
+    justify-content: flex-start;
+    align-content: center;
+    font-size: 24px;
+    
+}
+.pin{
+    margin-left: 10px;
+}

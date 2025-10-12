@@ -1,0 +1,25 @@
+const Listing = require("../models/listing");
+const Review=require("../models/review");//because reviews is added in listings
+
+module.exports.createReview=async (req, res) => {
+    // console.log(req.params.id);
+    let listing = await Listing.findById(req.params.id);
+    let newReview = new Review(req.body.review);
+    newReview.author= req.user._id;//now author is a person who is writing reviews
+    listing.reviews.push(newReview);
+    await newReview.save();
+    await listing.save();
+    req.flash("success", "New review created");
+    res.redirect(`/listings/${listing._id}`);//use backticks `` for object iteralsa
+}
+
+module.exports.destroyReview=async (req, res) => {
+    let { id, reviewId } = req.params;
+
+    await Listing.findByIdAndUpdate(id, { $pull: { reviews: reviewId} })
+    await Review.findById(reviewId);
+    req.flash("success", "Review Deleted");
+    res.redirect(`/listings/${id}`);
+
+}
+

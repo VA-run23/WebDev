@@ -1,0 +1,14 @@
+div{
+    height:100px ;
+    width: 100px;
+    background-color: azure;
+    border: 50px solid burlywood;
+    transition: 0.5s;
+    margin: auto auto;
+    margin-top: 20px;
+}
+div:hover{
+    background-color: aquamarine;
+    border-radius: 50%;
+    margin-top: 400px;
+}

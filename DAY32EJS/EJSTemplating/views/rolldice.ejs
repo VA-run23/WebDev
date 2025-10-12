@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>throw a dice</title>
+    <%- include("includes/head.ejs"); %><!--This line has no effect here , but is effective after just opening the head tag-->
+</head>
+
+
+<body>
+    <!-- <h1>DICE GAVE A VALUE: <%= Math.ceil(Math.random()*5)%></h1> -->
+    <!-- <h1>DICE GAVE A VALUE: <%= rollVal%></h1> -->
+    <h1>DICE GAVE A VALUE: <%= rollVal%></h1>
+    <% if(rollVal==4){%>
+        <h2>Nice Roll dice again</h2>
+    <%}%>
+        
+    <%- include("includes/footer.ejs")%>
+
+</body>
+</html>
+
+

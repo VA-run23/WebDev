@@ -1,0 +1,43 @@
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    animation-name: test;
+   /* justify-self: center;
+    align-self: center;*/
+
+    /*animation-name: fontAnimation;*/
+    animation-duration: 4s;
+    animation-timing-function:ease-in-out;
+    animation-delay: 50ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count:4;
+    animation-direction: alternate;
+
+}
+/*
+@keyframes fontAnimation {
+    form{
+        font-size: 20px;
+        background-color: pink;
+    }
+    to{
+        font-size: 50px;
+        background-color: green;
+        border-radius: 50%;
+}
+}*/
+@keyframes test{
+    0%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: aqua;
+    }
+    80%{
+        background-color: burlywood;
+    }
+    to{
+        background-color: cornflowerblue;
+    }
+}

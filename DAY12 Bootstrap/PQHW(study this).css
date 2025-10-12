@@ -1,0 +1,11 @@
+body{
+    justify-items: center;
+    flex-wrap: wrap;
+
+}
+div{
+    display: inline-block;
+    /* justify-items: center; */
+    justify-content: center;
+
+}
